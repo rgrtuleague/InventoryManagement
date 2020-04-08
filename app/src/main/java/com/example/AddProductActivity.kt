@@ -11,12 +11,12 @@ class AddProductActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.add_product)
 
-        addProductSubmitButton.setOnClickListener {
+        /*addProductSubmitButton.setOnClickListener {
 
             val database = getSharedPreferences("database", Context.MODE_PRIVATE)
             database.edit().apply() {
                 putString("savedProductName", editTextProductName.text.toString())
             }.apply()
-        }
+        }*/
     }
 }
