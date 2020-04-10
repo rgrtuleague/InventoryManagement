@@ -6,3 +6,5 @@ data class Product (
     val yearPurchased: Int,
     val cost: Double
 )
+
+
